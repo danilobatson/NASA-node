@@ -27,4 +27,4 @@ export {
   httpGetLaunches,
   httpSubmitLaunch,
   httpAbortLaunch,
-};
+}

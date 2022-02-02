@@ -1,3 +1,4 @@
+require('dotenv').config
 const http = require('http');
 const { mongoConnect} = require('./services/mongo')
 const app = require('./app');
@@ -22,4 +23,3 @@ async function startServer() {
 }
 
 startServer();
- 

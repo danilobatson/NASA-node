@@ -17,9 +17,10 @@
   "author": "",
   "license": "ISC",
   "jest": {
-    "testEnvironment" : "node"
+    "testEnvironment": "node"
   },
   "dependencies": {
+    "axios": "^0.25.0",
     "lodash": "^4.17.21"
   }
 }
